@@ -1,0 +1,105 @@
+
+/*Импортируем  кастомный шрифт формат w0ff2  */
+@font-face {
+  font-family: 'Commissioner';
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/commissioner/v20/tDbw2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8m0bkXaexs.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+body {
+  font-family: 'Commissioner', Arial, sans-serif; /* Arial будет использован в случае, если кастомный шрифт w0ff2 не загрузится */
+}
+
+.block1 {
+  width: 30%;    /* избегаем использовать px дабы предать резиновость странице */
+  float: left;   /* выравниваем div  */
+ 
+}
+.block2 {
+  width: 30%;
+  float: left;
+ 
+}
+.block3 {
+  width: 30%;
+  float: left;
+ 
+}
+
+
+.registration-cssave{
+  padding:10% 50%;
+}
+
+.registration-cssave form {
+  max-width:33%;
+ 
+  background-color:#fff;
+}
+
+
+
+.registration-cssave .create-account {
+  border-radius:px;
+  padding:10px 10px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#3f93ff;
+  border:none;
+  color:white;
+  margin-top:20px;
+}
+
+.content 
+{
+  width: 100%;
+   margin: 0 auto; 
+   float:left;
+}
+.content-book
+{
+  width: 100%;
+   margin: 0 auto; 
+   text-align: center;
+   float:left;
+}
+.button-style {
+  display: inline-block;
+  padding: 10px 10px;
+  background: #f2f2f2;
+  border: 1px solid #000; 
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-style:hover, .button-style:focus {
+  background: #e2e2f2; /* Эффект при наведении — дополнительное оформление */
+}
+
+.avtor {
+ width: 50%;
+   margin: 0 auto; 
+  
+   float:left;
+}
+.vozrast {
+   width: 50%;
+   margin: 0 auto; 
+  
+   float:left;
+}
+.footer {
+ width: 100%;
+ background: border-box blue;
+ color: white;
+   margin: 0 auto; 
+  text-align: center;
+   float:left;
+}
+}
+@media (max-width: 576px) {
+  .registration-cssave form {
+    padding:50px 20px;
+  }
+}
